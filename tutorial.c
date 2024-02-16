@@ -1,8 +1,11 @@
 #include <stdio.h>
 
+void greeting(char name[]){
+	printf("Hello, %s\n", name);
+}
+
 int main()
 {
-	printf("Hello World!");
-	
+	greeting("Oyugi");
 	return (0);
 }
